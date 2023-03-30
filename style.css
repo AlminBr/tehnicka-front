@@ -40,7 +40,7 @@ body {
   left: 0;
   right: 0;
   height: 600px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0), black);
+  background: linear-gradient(180deg, rgba(14, 14, 14, 0), #0e0e0e);
 }
 
 .content {
@@ -72,7 +72,7 @@ h2 {
   height: 80px;
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: rgb(14, 14, 14);
   margin: 0;
   position: sticky;
   top: 0;
@@ -90,7 +90,7 @@ h2 {
   height: 100%;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgba(0, 0, 0, 60%);
+  color: rgba(14, 14, 14, 60%);
   font-weight: 500;
   filter: invert(1);
   flex-direction: column;
@@ -104,7 +104,7 @@ h2 {
 }
 
 .navitem:hover {
-  color: rgba(0, 0, 0, 100%);
+  color: rgba(14, 14, 14, 100%);
   filter: invert(1);
 }
 
@@ -131,10 +131,12 @@ a {
 
 
 .info {
-  background-color: black;
+  background-color:#0e0e0e ;
   height: 700px;
   display: flex;
   color: white;
+  justify-content: space-around;
+  align-items: center;
 }
 
 
@@ -170,12 +172,12 @@ a {
 }
 
 .kontaktirajnas {
-  background-color: red;
+  background-color: #0e0e0e;
   height: 250px;
 }
 
 .contactsection {
-  background-color: blue;
+  background-color: #0e0e0e;
   height: 60%;
   display: flex;
   align-items: center;
@@ -193,7 +195,7 @@ a {
 }
 
 .copyright-social {
-  background-color: purple;
+  background-color: #0e0e0e;
   height: 40%;
   display: flex;
   align-items: center;
@@ -203,10 +205,11 @@ a {
 
 .footerlogo {
   height: 90%;
+  filter: invert(1);
 }
 
 .social {
-  background-color: red;
+  background-color: #0e0e0e;
   width: 20%;
   height: 60%;
   display: flex;
@@ -216,10 +219,21 @@ a {
 }
 
 .copyrighttext {
-  background-color: red;
+  background-color: #0e0e0e;
   width: 20%;
   height: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+}
+
+.socialicon {
+  color: rgba(14, 14, 14, 60%);
+  filter: invert(1);
+}
+
+.socialicon:hover {
+  color: rgba(14, 14, 14, 100%);
+  filter: invert(1);
 }
