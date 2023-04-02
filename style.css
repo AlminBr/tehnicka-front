@@ -29,8 +29,6 @@ body {
   height: 100%;
   overflow: hidden;
   transform: scaleX(-1);
-
-
 }
 
 .school-img:after {
@@ -108,13 +106,12 @@ h2 {
   filter: invert(1);
 }
 
-
 a {
   text-decoration: none;
 }
 
 .unselectable {
-  -webkit-user-select: none; /* Safari */        
+  -webkit-user-select: none; /* Safari */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
@@ -126,12 +123,10 @@ a {
   left: 2vw;
   top: 2vh;
   z-index: 3;
-
 }
 
-
 .info {
-  background-color:#0e0e0e ;
+  background-color: #0e0e0e;
   height: 700px;
   display: flex;
   color: white;
@@ -139,14 +134,12 @@ a {
   align-items: center;
 }
 
-
 .text {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 50vw;
-
 }
 
 .image {
@@ -156,19 +149,17 @@ a {
   justify-content: center;
 }
 
-
 .spongbob {
   width: 80%;
   height: 80%;
 }
 
-.text-content{
+.text-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-
 }
 
 .kontaktirajnas {
@@ -185,13 +176,21 @@ a {
 }
 
 .contactbutton {
+  border-radius: 11px;
   width: 20%;
   height: 50%;
-  background-color: green;
+  background-color: rgba(255, 255, 255, 80%);
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  color: #0e0e0e;
+  font-size: 30px;
+  font-weight: 700;
+  transition: background-color 0.3s;
+}
+
+.contactbutton:hover {
+  background-color: white;
 }
 
 .copyright-social {
@@ -200,7 +199,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
 }
 
 .footerlogo {
