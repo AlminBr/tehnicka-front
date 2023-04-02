@@ -54,7 +54,7 @@ h1 {
 
 .logo {
   position: absolute;
-  left: 80px;
+  left: 14px;
   top: 45px;
 }
 
@@ -118,7 +118,7 @@ a {
 }
 
 .logo {
-  width: 7vw;
+  width: 134px;
   position: absolute;
   left: 2vw;
   top: 2vh;
@@ -187,6 +187,7 @@ a {
   font-size: 30px;
   font-weight: 700;
   transition: background-color 0.3s;
+  text-align: center;
 }
 
 .contactbutton:hover {
