@@ -236,3 +236,99 @@ a {
   color: rgba(14, 14, 14, 100%);
   filter: invert(1);
 }
+
+.header {
+  background-color: #1e1d20;
+  height: 177px;
+}
+
+.logodark {
+  width: 134px;
+  position: absolute;
+  left: 2vw;
+  top: 2vh;
+  z-index: 3;
+  filter: invert(1);
+}
+
+.navigation-barnews {
+  margin-top: 700px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  background-color: #1e1d20;
+  margin: 0;
+  position: sticky;
+  top: 0;
+}
+
+.blank {
+  height: 6500px;
+}
+
+.article {
+  background-color: red;
+  width: 70vw;
+  height: 2000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  height: fit-content;
+  width: 100%;
+  background-color: green;
+}
+
+.title h1 {
+  font-size: 110px;
+}
+
+.article p {
+  font-size: 25px;
+}
+
+.article img {
+  width: 80%;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+}
+
+.foryou {
+  background-color: purple;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foryouitem {
+  width: 80%;
+  height: 25%;
+  background-image: url(img/foryoupic.PNG);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.foryouitem img {
+  width: 100%;
+  height: 100%;
+}
+
+.foryouitem p {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgba(14, 14, 14, 90%);
+  height: 20%;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+}
