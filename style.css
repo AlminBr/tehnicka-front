@@ -238,7 +238,7 @@ a {
 }
 
 .header {
-  background-color: #1e1d20;
+  background-color: black;
   height: 177px;
 }
 
@@ -260,16 +260,17 @@ a {
   margin: 0;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 
 .blank {
-  height: 6500px;
+  height: fit-content;
 }
 
 .article {
-  background-color: red;
-  width: 70vw;
-  height: 2000px;
+  background-color: black;
+  width: 60vw;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -278,15 +279,20 @@ a {
 .title {
   height: fit-content;
   width: 100%;
-  background-color: green;
+  background-color: black;
 }
 
 .title h1 {
   font-size: 110px;
+  color: white;
 }
 
 .article p {
+  margin-top: 20px;
   font-size: 25px;
+  color: white;
+  text-align: justify;
+  left: 20px;
 }
 
 .article img {
@@ -299,36 +305,35 @@ a {
 }
 
 .foryou {
-  background-color: purple;
+  background-color: black;
   width: 30vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.foryouitem {
-  width: 80%;
-  height: 25%;
-  background-image: url(img/foryoupic.PNG);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-}
-
-.foryouitem img {
-  width: 100%;
-  height: 100%;
-}
-
-.foryouitem p {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  background-color: rgba(14, 14, 14, 90%);
-  height: 20%;
-  width: 100%;
   color: white;
-  font-size: 20px;
+}
+
+.title {
+  position: relative;
+  top: 2%;
+  box-shadow: 0 4px 2px -2px #d0d0d0;
+}
+
+.title img {
   position: absolute;
-  bottom: 0;
+  top: 10px;
+  height: 150px;
+  width: 200px;
+  left: -80px;
+  z-index: 9;
+  opacity: 40%;
+}
+
+.spacing {
+  width: 10vw;
+  background-color: black;
+}
+
+.title p {
+  text-align: end;
 }
