@@ -381,3 +381,122 @@ a {
   height: 0.1vh;
   width: 40vw;
 }
+
+.contacttitle {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #202020;
+  color: white;
+  width: 100vw;
+  height: 20vh;
+  font-size: 100px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.contactitems {
+  background-color: #202020;
+  display: flex;
+  width: 90vw;
+  height: 40vh;
+  position: absolute;
+  left: 5vw;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contactitem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90%;
+  width: 30%;
+  background-color: #323232;
+  color: white;
+}
+
+.contactitem p {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.contactitemscontainer {
+  background-color: #202020;
+  width: 100vw;
+  height: 40vh;
+}
+
+.socialmediatext {
+  background-color: #202020;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+}
+
+.socialmediashowcase {
+  height: 60vh;
+  width: 100vw;
+  background-color: #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialmediashowcaseholder {
+  background: #202020;
+  width: 90vw;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.socialmediaicontiktok {
+  background-color: #323232;
+  width: 24%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialmediaiconfacebook {
+  background-color: #323232;
+  width: 24%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialmediaiconinstagram {
+  background-color: #323232;
+  width: 24%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialmediaiconnone {
+  background-color: #cf9a41;
+  width: 24%;
+  height: 80%;
+}
+
+.socialmediaiconfacebook:hover,
+.socialmediaiconinstagram:hover,
+.socialmediaicontiktok:hover {
+  background-image: url(img/gold.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.iconcolor {
+  color: white;
+}
