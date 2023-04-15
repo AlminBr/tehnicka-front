@@ -165,10 +165,11 @@ a {
 .kontaktirajnas {
   background-color: #0e0e0e;
   height: 250px;
+  width: 100vw;
 }
 
 .contactsection {
-  background-color: #0e0e0e;
+  background-color: #323232;
   height: 60%;
   display: flex;
   align-items: center;
@@ -195,7 +196,7 @@ a {
 }
 
 .copyright-social {
-  background-color: #0e0e0e;
+  background-color: #323232;
   height: 40%;
   display: flex;
   align-items: center;
@@ -208,7 +209,7 @@ a {
 }
 
 .social {
-  background-color: #0e0e0e;
+  background-color: #323232;
   width: 20%;
   height: 60%;
   display: flex;
@@ -218,7 +219,7 @@ a {
 }
 
 .copyrighttext {
-  background-color: #0e0e0e;
+  background-color: #323232;
   width: 20%;
   height: 60%;
   display: flex;
@@ -239,16 +240,16 @@ a {
 
 .header {
   background-color: #202020;
-  height: 177px;
+  height: 100px;
+  width: 100vw;
 }
 
 .logodark {
-  width: 134px;
+  width: 80px;
   position: absolute;
   left: 2vw;
-  top: 2vh;
+  top: 10px;
   z-index: 3;
-  filter: invert(1);
 }
 
 .navigation-barnews {
@@ -268,18 +269,19 @@ a {
 }
 
 .article {
-  background-color: black;
+  background-color: #202020;
   width: 60vw;
   height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 5vh;
 }
 
 .title {
   height: fit-content;
   width: 100%;
-  background-color: black;
+  background-color: #202020;
 }
 
 .title h1 {
@@ -305,7 +307,7 @@ a {
 }
 
 .foryou {
-  background-color: black;
+  background-color: #202020;
   width: 30vw;
   display: flex;
   flex-direction: column;
@@ -331,7 +333,7 @@ a {
 
 .spacing {
   width: 10vw;
-  background-color: black;
+  background-color: #202020;
 }
 
 .title p {
@@ -344,6 +346,7 @@ a {
   color: white;
   margin: 0;
   font-weight: 600;
+  width: 100vw;
 }
 
 .display {
@@ -430,6 +433,7 @@ a {
 }
 
 .socialmediatext {
+  width: 100vw;
   background-color: #202020;
   color: white;
   text-align: center;
@@ -499,4 +503,121 @@ a {
 
 .iconcolor {
   color: white;
+}
+
+.smijernavbar {
+  margin-top: 700px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  background-color: #323232;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.smijernavitem {
+  height: 100%;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(14, 14, 14, 60%);
+  font-weight: 500;
+  filter: invert(1);
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1px;
+  /*padding: 7px;
+border-bottom: 1px solid #1e1d20;
+border-radius: 1px; */
+  transition: color 0.3s;
+}
+
+.smijernavitem img {
+  height: 50%;
+}
+
+.smijernavitem:hover {
+  color: rgba(14, 14, 14);
+}
+
+.banner {
+  background-image: url(/img/masinstvobanner.jpg);
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: -5;
+  background-position-y: -750px;
+  background-position-x: -1500px;
+}
+
+.banner img {
+  height: 90%;
+  filter: invert(1);
+}
+
+.banner h1 {
+  filter: invert(1);
+  position: absolute;
+  right: 10%;
+  border-bottom: black dotted;
+  line-height: 70px;
+}
+
+.paratehnicka {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  filter: invert(1);
+  font-size: 30px;
+  font-weight: 700;
+  height: fit-content;
+  width: fit-content;
+  z-index: 50;
+}
+
+.parabrcko {
+  position: absolute;
+  top: 53px;
+  left: 160px;
+  filter: invert(1);
+  font-size: 20px;
+  font-weight: 700;
+  height: fit-content;
+  width: fit-content;
+  z-index: 50;
+}
+
+#navbar {
+  width: 100vw;
+}
+
+.paratehnickahome {
+  color: #0e0e0e;
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  font-size: 30px;
+  font-weight: 700;
+  height: fit-content;
+  width: fit-content;
+  z-index: 50;
+}
+
+.parabrckohome {
+  color: #0e0e0e;
+  position: absolute;
+  top: 53px;
+  left: 160px;
+  font-size: 20px;
+  font-weight: 700;
+  height: fit-content;
+  width: fit-content;
+  z-index: 50;
 }
